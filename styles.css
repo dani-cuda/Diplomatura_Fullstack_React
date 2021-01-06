@@ -1,0 +1,51 @@
+body{
+        display: flex;
+        background-color: black;
+}
+main{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+}
+button{
+        background-color: black;
+        color: white;
+        border-color: cyan;
+        border-radius: 30px;
+        padding: 5px;
+}
+p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+}
+#botonTotal{
+        display: flex;
+        justify-content: center;
+}
+.contenido{
+       display: flex;
+       flex-direction: column;     
+       width: 350px;
+       border-color: cyan;
+       border-style: solid;
+       border-width: 1px;
+       border-radius: 30px;
+       padding: 10px 20px 10px 20px;
+       margin: 5px;
+}
+.producto{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-color: cyan;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 30px;
+        padding: 0px 20px 0px 20px;
+        margin: 10px 0px 10px 0px;
+}
